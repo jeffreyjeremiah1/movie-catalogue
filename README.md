@@ -1,6 +1,10 @@
 # Movie Database
 
-A  site made with python that uses a movie API to fetch your top 10 favorite movies through a search bar and save them to a list. Each item displays as a flash card that displays the cover art of the movie, rating and feedback of the user, a button to edit a movie and a button to delete a movie. The edit button takes the user to the edit page which allows the user to edit the rating and feedback of the movie. A database is made using flask_SqlAlchemy that saves the selected movies from the search bar.
+A web application that allows users to browse, search save and delete movies in a catalog. It is built using the React JavaScript library, a movie api which provides the data for the searched movies and flask_sqlalchemy which stores all movie data.
+
+The site could include a list of movies displayed in a grid or a list format, with each movie represented by a thumbnail image and its title. Users could navigate through the list of movies using pagination. When a user clicks on a movie thumbnail, the site displays a detailed view of the movie, including its plot summary, cast and crew information, and ratings. The site also includes a search bar that allows users to search for movies by title or keyword, and an edit button on each movie flash card which takes the user to an page containing a form that allows the user to edit rating of the movie and also give a feedback if they have watched the movie. 
+
+It would provide a user-friendly and visually appealing way for users to discover and learn about movies, and it would offer a rich set of features and functionality for movie lovers.
 
 ## Installation
 
